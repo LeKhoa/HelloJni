@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference
+        android:key="id_chanel"
+        android:summary="Chọn kênh phân tích (1-16)"
+        android:title="Select chanel" />
+    
+
+    <EditTextPreference
+        android:key="flm_value"
+        android:summary="Thiết lập tần số lấy mẫu"
+        android:title="FLM" />
+
+    <EditTextPreference
+        android:key="bellow_cutoff_value"
+        android:summary="Tần số cắt dưới"
+        android:title="Bellow frequency cutoff " />
+    <EditTextPreference
+        android:key="above_cutoff_value"
+        android:summary="Tần số cắt trên"
+        android:title="Above frequency cutoff " />        
+    
+
+</PreferenceScreen>
