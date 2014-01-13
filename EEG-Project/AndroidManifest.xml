@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.eeg_project.Main.MainActivity"
+            android:name="eeg.MAIN.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.eeg_project.Main.FIRMain"/>
-        <activity android:name="com.eeg_project.Main.FIRTest"/>
-        <activity android:name="com.eeg_project.FFT.FFTTest"/>
-        <activity android:name="com.eeg_project.Main.SetPreference"/>
-        <activity android:name="com.eeg_project.Main.GraphView"/>
+        <activity android:name="eeg.FIR.FIRMain"/>
+        <activity android:name="eeg.FIR.FIRTest"/>
+        <activity android:name="eeg.DWT.DWTTest"/>
+        <activity android:name="eeg.MAIN.SetPreference"/>
+        <activity android:name="eeg.MAIN.GraphView"/>
         <activity android:name="org.achartengine.GraphicalActivity"/>
     </application>
 
